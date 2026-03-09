@@ -1,0 +1,39 @@
+.App {
+  font-family: Arial, sans-serif;
+}
+
+.grocery-list {
+  list-style: none;
+}
+
+.grocery-item {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filter-buttons button {
+  margin: 5px;
+  padding: 5px 10px;
+}
+
+.error {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.grocery-manager {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.input {
+  padding: 5px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  margin: 4px;
+}

@@ -1,0 +1,119 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+  
+.calendar {
+  width: 660px;
+  background-color: hwb(0 100% 0%);
+  display: block;
+  margin: 5% auto;
+  border: 1px solid darkolivegreen;
+  border-radius: 8px;
+}
+  
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3px 9px;
+  background-color: #e3f3e6;
+  color: #fff;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+  
+.header button {
+  background-color: #1ba94c;
+  color: #fff;
+  border: none;
+  padding: 3px 7px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+  
+.header button:hover {
+  background-color: #179944;
+}
+  
+.days {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  border: 1px solid silver;
+  max-height: 135px; 
+  overflow-y: auto; 
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+  
+.day-header {
+  padding: 10px 5px;
+  background-color: #ecf0f1;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.day-header p{
+  margin: 0;
+  padding: 0;
+}
+  
+.day-content {
+  padding: 10px;
+  max-height: 100%; 
+}
+  
+.event {
+  border: 1px solid #ccc;
+  padding: 5px;
+  margin-bottom: 5px;
+  background-color: #f0f0f0;
+}
+  
+.event-form {
+  margin-top: 10px;
+}
+  
+form {
+  padding: 0 10px;
+  display: flex; 
+  flex-direction: column;
+}
+
+.time-label {
+  display: flex; 
+  flex-direction: column;
+}
+
+.date-label{
+  display: flex;
+  flex-direction: column;
+}
+  
+label {
+  margin-bottom: 8px;
+}
+  
+input[type="date"],
+input[type="time"] {
+  padding: 8px;
+}
+
+button {
+  background-color: #1ba94c;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #179944;
+}
+  

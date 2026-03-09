@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.create-post {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.input {
+  padding: 4px;
+  border-radius: 10px;
+  border: 1px solid #ccc
+}
+
+.create-button {
+  /* padding: 10px; */
+  margin-top: 10px;
+}
+
+.error {
+  color: red;
+}

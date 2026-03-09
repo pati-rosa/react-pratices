@@ -1,1 +1,1 @@
-# hacker-rank
+# hacker-rank-questions

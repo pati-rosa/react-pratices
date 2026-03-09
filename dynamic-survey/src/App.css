@@ -1,0 +1,24 @@
+:root {
+  --toolbar-background-color: #0e131d;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 0.5rem;
+}
+
+[data-testid="question-block"],
+[data-testid="summary-block"] {
+  margin: 1rem;
+}
+
+[data-testid="question-block"] > h2,
+[data-testid="summary-block"] > h2 {
+  font-size: 1.5rem;
+}
+
+[data-testid="question-block"] > button {
+  margin-left: 0rem;
+}
